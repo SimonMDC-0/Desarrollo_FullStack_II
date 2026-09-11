@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>WorldBroker - Venta de Países Online</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    <!-- 1. BARRA DE NAVEGACIÓN PRINCIPAL -->
+    <header class="main-header">
+        <div class="header-container">
+            <div class="brand-logo">
+                <a href="index.html" class="logo-link">
+                    <img src="img/logo.png" alt="The World Is Yours Logo" class="logo-img" height="70">
+                    <span class="site-name">The World Is Yours</span>
+                </a>
+            </div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="pages/productos.html">Productos</a></li>
+                    <li><a href="pages/nosotros.html">Nosotros</a></li>
+                    <li><a href="pages/blogs.html">Blogs</a></li>
+                    <li><a href="pages/contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+            <div class="cart-indicator">
+                <a href="pages/carrito.html" class="cart-btn">
+                    <span class="cart-icon">🛒</span>
+                    <span class="cart-text">Cart (<span id="cart-count">0</span>)</span>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- CONTENEDOR PRINCIPAL DEL SITIO -->
+    <div class="page-content">
+
+        <!-- 2. ENLACES DE AUTENTICACIÓN (Superior derecha) -->
+        <div class="auth-bar">
+            <a href="pages/login.html">Iniciar sesión</a> |
+            <a href="pages/registro.html">Registrar usuario</a>
+        </div>
+
+        <!-- 3. BANNER PRINCIPAL (HERO SECTION) -->
+        <section class="hero-banner">
+            <div class="hero-content">
+                <h1>TIENDA ONLINE - VENTA DE PAÍSES</h1>
+                <p>
+                    Adquiere soberanía territorial completa. Explora nuestro catálogo de naciones disponibles con
+                    entrega inmediata y traspaso de mando garantizado.
+                </p>
+                <a href="pages/productos.html" class="btn-primary">
+                    <span class="icon">📥</span> ver productos
+                </a>
+            </div>
+            <div class="hero-image">
+                <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=800&auto=format&fit=crop"
+                    alt="Planeta Tierra">
+            </div>
+        </section>
+
+        <!-- 4. SECCIÓN DE PRODUCTOS (GRILLA DE 8 PRODUCTOS) -->
+        <section class="products-section">
+            <div class="products-grid">
+
+                <!-- Producto 1 -->
+                <article class="product-card">
+                    <div class="product-image">
+                        <img src="https://flagcdn.com/w320/cl.png" alt="Chile">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title"><a href="pages/detalle-producto.html?id=cl">Chile</a></h3>
+                        <div class="product-footer">
+                            <span class="attributes">América del Sur</span>
+                            <span class="price">$45.000.000</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Producto 2 -->
+                <article class="product-card">
+                    <div class="product-image">
+                        <img src="https://flagcdn.com/w320/jp.png" alt="Japón">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title"><a href="pages/detalle-producto.html?id=jp">Japón</a></h3>
+                        <div class="product-footer">
+                            <span class="attributes">Asia</span>
+                            <span class="price">$85.000.000</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Producto 3 -->
+                <article class="product-card">
+                    <div class="product-image">
+                        <img src="https://flagcdn.com/w320/it.png" alt="Italia">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title"><a href="pages/detalle-producto.html?id=it">Italia</a></h3>
+                        <div class="product-footer">
+                            <span class="attributes">Europa</span>
+                            <span class="price">$62.000.000</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Producto 4 -->
+                <article class="product-card">
+                    <div class="product-image">
+                        <img src="https://flagcdn.com/w320/nz.png" alt="Nueva Zelanda">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title"><a href="pages/detalle-producto.html?id=nz">Nueva Zelanda</a></h3>
+                        <div class="product-footer">
+                            <span class="attributes">Oceanía</span>
+                            <span class="price">$38.000.000</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Producto 5 -->
+                <article class="product-card">
+                    <div class="product-image">
+                        <img src="https://flagcdn.com/w320/ca.png" alt="Canadá">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title"><a href="pages/detalle-producto.html?id=ca">Canadá</a></h3>
+                        <div class="product-footer">
+                            <span class="attributes">América del Norte</span>
+                            <span class="price">$95.000.000</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Producto 6 -->
+                <article class="product-card">
+                    <div class="product-image">
+                        <img src="https://flagcdn.com/w320/is.png" alt="Islandia">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title"><a href="pages/detalle-producto.html?id=is">Islandia</a></h3>
+                        <div class="product-footer">
+                            <span class="attributes">Europa</span>
+                            <span class="price">$22.000.000</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Producto 7 -->
+                <article class="product-card">
+                    <div class="product-image">
+                        <img src="https://flagcdn.com/w320/eg.png" alt="Egipto">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title"><a href="pages/detalle-producto.html?id=eg">Egipto</a></h3>
+                        <div class="product-footer">
+                            <span class="attributes">África</span>
+                            <span class="price">$31.000.000</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Producto 8 -->
+                <article class="product-card">
+                    <div class="product-image">
+                        <img src="https://flagcdn.com/w320/br.png" alt="Brasil">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title"><a href="pages/detalle-producto.html?id=br">Brasil</a></h3>
+                        <div class="product-footer">
+                            <span class="attributes">América del Sur</span>
+                            <span class="price">$78.000.000</span>
+                        </div>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+    </div>
+
+    <!-- 5. PIE DE PÁGINA (FOOTER) -->
+    <footer class="main-footer">
+        <div class="footer-container">
+            <div class="footer-left">
+                <span class="site-name-footer">WorldBroker</span>
+                <div class="category-links">
+                    <a href="pages/productos.html?cat=america">América</a> |
+                    <a href="pages/productos.html?cat=europa">Europa</a> |
+                    <a href="pages/productos.html?cat=asia">Asia</a>
+                </div>
+                <div class="payment-icons">
+                    <span class="badge">VISA</span>
+                    <span class="badge">MC</span>
+                    <span class="badge">AMEX</span>
+                </div>
+            </div>
+            <div class="footer-right">
+                <p>Stay In Touch! Join our Newsletter.</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Enter Email">
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,52 @@
+/* ==========================================================================
+   Estilos Base del Proyecto - WorldBroker (Venta de Países)
+   Basado en el mockup de la Evaluación 1 (Duoc UC)
+   ========================================================================== */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    background-color: #f4f4f4;
+    color: #333;
+}
+/* 1. Header principal */
+.main-header {
+    background-color: #e0e0e0;
+    border-bottom: 2px solid #ccc;
+    padding: 15px 30px;
+}
+.header-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.brand-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.logo-icon {
+    font-size: 1.4rem;
+}
+.main-nav ul {
+    display: flex;
+
+/* Logo Styles */
+.logo-link {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    color: inherit;
+}
+.logo-img {
+    height: 40px;
+    width: auto;
+}
